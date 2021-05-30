@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Promise | 我的博客</title>
+    <meta name="description" content="">
+    <link rel="icon" href="/avatar/avatar.jpg">
+    
+    <link rel="preload" href="/assets/css/0.styles.2aa6dd87.css" as="style"><link rel="preload" href="/assets/js/app.858bddda.js" as="script"><link rel="preload" href="/assets/js/42.85cabb29.js" as="script"><link rel="prefetch" href="/assets/js/10.2d74bb5a.js"><link rel="prefetch" href="/assets/js/11.e10d842b.js"><link rel="prefetch" href="/assets/js/12.18390cbb.js"><link rel="prefetch" href="/assets/js/13.aae5792b.js"><link rel="prefetch" href="/assets/js/14.1d6ae7c3.js"><link rel="prefetch" href="/assets/js/15.1accb1d0.js"><link rel="prefetch" href="/assets/js/16.8c6dba62.js"><link rel="prefetch" href="/assets/js/17.25fadd3f.js"><link rel="prefetch" href="/assets/js/18.e6e5f1eb.js"><link rel="prefetch" href="/assets/js/19.252d41af.js"><link rel="prefetch" href="/assets/js/2.854dcf62.js"><link rel="prefetch" href="/assets/js/20.89167b01.js"><link rel="prefetch" href="/assets/js/21.5c3e5f51.js"><link rel="prefetch" href="/assets/js/22.8f218529.js"><link rel="prefetch" href="/assets/js/23.4454e386.js"><link rel="prefetch" href="/assets/js/24.e78c8deb.js"><link rel="prefetch" href="/assets/js/25.aff1fa58.js"><link rel="prefetch" href="/assets/js/26.c1575985.js"><link rel="prefetch" href="/assets/js/27.bbbff17e.js"><link rel="prefetch" href="/assets/js/28.032c3b66.js"><link rel="prefetch" href="/assets/js/29.b070123f.js"><link rel="prefetch" href="/assets/js/3.1c160946.js"><link rel="prefetch" href="/assets/js/30.7ac5e2b2.js"><link rel="prefetch" href="/assets/js/31.0aede292.js"><link rel="prefetch" href="/assets/js/32.8064e8d6.js"><link rel="prefetch" href="/assets/js/33.94d5a126.js"><link rel="prefetch" href="/assets/js/34.deb058f5.js"><link rel="prefetch" href="/assets/js/35.c3e5d041.js"><link rel="prefetch" href="/assets/js/36.00db95fa.js"><link rel="prefetch" href="/assets/js/37.7c1e5e50.js"><link rel="prefetch" href="/assets/js/38.c75c82fc.js"><link rel="prefetch" href="/assets/js/39.636283c2.js"><link rel="prefetch" href="/assets/js/4.7f5eef1c.js"><link rel="prefetch" href="/assets/js/40.e8781bfc.js"><link rel="prefetch" href="/assets/js/41.532ec844.js"><link rel="prefetch" href="/assets/js/43.5e97f4d6.js"><link rel="prefetch" href="/assets/js/44.7eefa085.js"><link rel="prefetch" href="/assets/js/45.aa3c8bd4.js"><link rel="prefetch" href="/assets/js/46.d190b5ea.js"><link rel="prefetch" href="/assets/js/47.43006b3b.js"><link rel="prefetch" href="/assets/js/48.d4b83131.js"><link rel="prefetch" href="/assets/js/49.e7c831c1.js"><link rel="prefetch" href="/assets/js/5.0e88bfe4.js"><link rel="prefetch" href="/assets/js/50.17222b89.js"><link rel="prefetch" href="/assets/js/51.64c39578.js"><link rel="prefetch" href="/assets/js/52.f9cef810.js"><link rel="prefetch" href="/assets/js/53.61c8ee0e.js"><link rel="prefetch" href="/assets/js/6.f186940d.js"><link rel="prefetch" href="/assets/js/7.c27c1b73.js"><link rel="prefetch" href="/assets/js/8.743493df.js"><link rel="prefetch" href="/assets/js/9.3323102f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2aa6dd87.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/avatar/avatar.jpg" alt="我的博客" class="logo"> <span class="site-name can-hide">我的博客</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">技术文档</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Language/Vue/" class="nav-link">Vue</a></li><li class="dropdown-item"><!----> <a href="/Language/Javascript/" class="nav-link">JavaScript</a></li><li class="dropdown-item"><!----> <a href="/Language/es6/" class="nav-link router-link-active">es6</a></li><li class="dropdown-item"><!----> <a href="/Language/css+html5/" class="nav-link">css+html5</a></li></ul></div></div><div class="nav-item"><a href="https://www.jianshu.com/u/c455567c7f50" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  简书主页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">技术文档</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Language/Vue/" class="nav-link">Vue</a></li><li class="dropdown-item"><!----> <a href="/Language/Javascript/" class="nav-link">JavaScript</a></li><li class="dropdown-item"><!----> <a href="/Language/es6/" class="nav-link router-link-active">es6</a></li><li class="dropdown-item"><!----> <a href="/Language/css+html5/" class="nav-link">css+html5</a></li></ul></div></div><div class="nav-item"><a href="https://www.jianshu.com/u/c455567c7f50" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  简书主页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <!----> </div> <div class="page"> <div class="content"><h2 id="promise"><a href="#promise" class="header-anchor">#</a> Promise</h2> <h3 id="_1-什么是promise"><a href="#_1-什么是promise" class="header-anchor">#</a> 1.什么是promise</h3> <pre><code>1、主要用于异步计算
+2、可以将异步操作队列化，按照期望的顺序执行，返回符合预期的结果
+3、可以在对象之间传递和操作promise，帮助我们处理队列
+
+为了避免界面冻结（任务）
+
+1.1 
+同步：假设你去了一家饭店，找个位置，叫来服务员， 这个时候服务员对你说，对不起我是“同步”服务员，
+我要服务完这张桌子才能招呼你。那桌客人明明已经吃上了，你只是想要个菜单，这么小的动作，服务员却
+要你等到别人的一个大动作完成之后，才能再来招呼你，这个便是同步的问题：也就是“顺序交付的工作1234，
+必须按照1234的顺序完成”。
+
+1.2
+异步：则是将耗时很长的A交付的工作交给系统之后，就去继续做B交付的工作，。等到系统完成了前面的工作
+之后，再通过回调或者事件，继续做A剩下的工作。AB工作的完成顺序，和交付他们的时间顺序无关，所以叫“异步”。
+
+1.3
+Promise对象代表一个未完成、但预计将来会完成的操作。
+它有以下三种状态：
+pending：初始值，不是fulfilled，也不是rejected
+fulfilled：代表操作成功
+rejected：代表操作失败
+Promise有两种状态改变的方式，既可以从pending转变为fulfilled，
+也可以从pending转变为rejected。一旦状态改变，就「凝固」了，会一直保持这个状态，
+不会再发生变化。当状态发生变化，promise.then绑定的函数就会被调用。
+注意：Promise一旦新建就会「立即执行」，无法取消。这也是它的缺点之一。
+1.4promise是一个对象，对象和函数的区别就是对象可以保存状态，函数不可以（闭包除外）
+并未剥夺函数return的能力，因此无需层层传递callback，进行回调获取数据
+代码风格，容易理解，便于维护
+多个异步等待合并便于解决
+</code></pre> <h3 id="_2-resolve-reject"><a href="#_2-resolve-reject" class="header-anchor">#</a> 2.resolve,reject</h3> <pre><code>2.1 resolve 和 reject
+resolve函数的作用：在异步操作成功时调用，并将异步操作的结果，作为参数传递出去； 
+reject函数的作用：在异步操作失败时调用，并将异步操作报出的错误，作为参数传递出去。
+// resolve == then
+// reject == catch
+
+let promise = new Promise((resolve,reject) =&gt; {
+	resolve(参数)//进入 then 代码块
+	reject(参数) // 进入catch 代码块
+})
+
+promise.then(response =&gt; {
+	consoloe.log(response)//参数
+	console.log('成功')
+}).catch(error =&gt; {
+consoloe.log(error)//参数
+	console.log('失败)
+})
+</code></pre> <h3 id="_3-all-ract"><a href="#_3-all-ract" class="header-anchor">#</a> 3 .all() , .ract()</h3> <h4 id="_3-1-all"><a href="#_3-1-all" class="header-anchor">#</a> 3.1 .all()</h4> <pre><code>数组内有promise必须全部返回成功(全部返回resolve)才会执行then回调 
+只有一个是返回(reject)不成功就会执行catch
+function fn1(){
+	return new Promise((resolve,reject) =&gt; {
+	  console.log(&quot;第1个promise成功&quot;);
+      resolve(&quot;第1个promise返回成功&quot;);
+	})
+};
+function fn2(){
+	return new Promise((resolve,reject) =&gt; {
+	  console.log(&quot;第2个promise成功&quot;);
+      resolve(&quot;第2个promise返回成功&quot;);
+	})
+};
+function fn3(){
+	return new Promise((resolve,reject) =&gt; {
+	  console.log(&quot;第2个promise成功&quot;);
+      resolve(&quot;第2个promise返回成功&quot;);
+	})
+};
+init(){
+	Promise.all([fn1(),fn2(),fn3()])
+	.then(response =&gt; {
+		console.log('全部调用成功')	
+}).catch(error =&gt; {
+	console.log('有些失败了')
+})
+};
+</code></pre> <h4 id="_3-2-race"><a href="#_3-2-race" class="header-anchor">#</a> 3.2 .race()</h4> <pre><code>顾名思义，Promse.race就是赛跑的意思，意思就是说，Promise.race([fn1(), fn2(), fn3()])里面哪个结果获得的快，就返回那个结果，不管结果本身是成功状态还是失败状态。
+function fn1(){
+	return new Promise((resolve,reject) =&gt; {
+	  console.log(&quot;第1个promise成功&quot;);
+      resolve(&quot;第1个promise返回成功&quot;);
+	})
+};
+function fn2(){
+	return new Promise((resolve,reject) =&gt; {
+	  console.log(&quot;第2个promise成功&quot;);
+      resolve(&quot;第2个promise返回成功&quot;);
+	})
+};
+function fn3(){
+	return new Promise((resolve,reject) =&gt; {
+	  console.log(&quot;第2个promise成功&quot;);
+      resolve(&quot;第2个promise返回成功&quot;);
+	})
+};
+init(){
+    Promise.race([fn1(),fn2(),fn3()])
+    .then(response =&gt; {
+        console.log(response)
+        console.log('111111')
+        
+    })
+    .catch(error =&gt; {
+        console.log(error)
+
+        console.log('22222')
+
+    })
+
+}
+</code></pre> <h3 id="链式"><a href="#链式" class="header-anchor">#</a> 链式</h3> <pre><code>function fn1(){
+  	let promiseDemo = new Promise((resolve,reject) =&gt; {
+        resolve('success')
+        reject('failed')
+      })
+	.then(response =&gt; { //第一个
+		consloe.log(response)
+		return fn2()
+	})
+	.then(response =&gt; {
+		consloe.log(response)
+		return fn3()
+	}) 
+	.catch(error =&gt; {
+		console.log(error)
+	})
+
+};
+function fn2(){ //第二个
+	return new Promise((resolve,reject) =&gt; {
+	  console.log(&quot;第1个promise成功&quot;);
+      resolve(&quot;第1个promise返回成功&quot;);
+	})
+}
+function fn3(){
+	return new Promise((resolve,reject) =&gt; {
+	  console.log(&quot;第2个promise成功&quot;);
+      resolve(&quot;第2个promise返回成功&quot;);
+	})
+}
+</code></pre></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/assets/js/app.858bddda.js" defer></script><script src="/assets/js/42.85cabb29.js" defer></script>
+  </body>
+</html>

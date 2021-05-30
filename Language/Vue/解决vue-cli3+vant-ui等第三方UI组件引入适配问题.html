@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>解决vue移动端适配问题，vue-cli3+vant-ui等第三方UI组件引入适配 | 我的博客</title>
+    <meta name="description" content="">
+    <link rel="icon" href="/avatar/avatar.jpg">
+    
+    <link rel="preload" href="/assets/css/0.styles.2aa6dd87.css" as="style"><link rel="preload" href="/assets/js/app.858bddda.js" as="script"><link rel="preload" href="/assets/js/34.deb058f5.js" as="script"><link rel="prefetch" href="/assets/js/10.2d74bb5a.js"><link rel="prefetch" href="/assets/js/11.e10d842b.js"><link rel="prefetch" href="/assets/js/12.18390cbb.js"><link rel="prefetch" href="/assets/js/13.aae5792b.js"><link rel="prefetch" href="/assets/js/14.1d6ae7c3.js"><link rel="prefetch" href="/assets/js/15.1accb1d0.js"><link rel="prefetch" href="/assets/js/16.8c6dba62.js"><link rel="prefetch" href="/assets/js/17.25fadd3f.js"><link rel="prefetch" href="/assets/js/18.e6e5f1eb.js"><link rel="prefetch" href="/assets/js/19.252d41af.js"><link rel="prefetch" href="/assets/js/2.854dcf62.js"><link rel="prefetch" href="/assets/js/20.89167b01.js"><link rel="prefetch" href="/assets/js/21.5c3e5f51.js"><link rel="prefetch" href="/assets/js/22.8f218529.js"><link rel="prefetch" href="/assets/js/23.4454e386.js"><link rel="prefetch" href="/assets/js/24.e78c8deb.js"><link rel="prefetch" href="/assets/js/25.aff1fa58.js"><link rel="prefetch" href="/assets/js/26.c1575985.js"><link rel="prefetch" href="/assets/js/27.bbbff17e.js"><link rel="prefetch" href="/assets/js/28.032c3b66.js"><link rel="prefetch" href="/assets/js/29.b070123f.js"><link rel="prefetch" href="/assets/js/3.1c160946.js"><link rel="prefetch" href="/assets/js/30.7ac5e2b2.js"><link rel="prefetch" href="/assets/js/31.0aede292.js"><link rel="prefetch" href="/assets/js/32.8064e8d6.js"><link rel="prefetch" href="/assets/js/33.94d5a126.js"><link rel="prefetch" href="/assets/js/35.c3e5d041.js"><link rel="prefetch" href="/assets/js/36.00db95fa.js"><link rel="prefetch" href="/assets/js/37.7c1e5e50.js"><link rel="prefetch" href="/assets/js/38.c75c82fc.js"><link rel="prefetch" href="/assets/js/39.636283c2.js"><link rel="prefetch" href="/assets/js/4.7f5eef1c.js"><link rel="prefetch" href="/assets/js/40.e8781bfc.js"><link rel="prefetch" href="/assets/js/41.532ec844.js"><link rel="prefetch" href="/assets/js/42.85cabb29.js"><link rel="prefetch" href="/assets/js/43.5e97f4d6.js"><link rel="prefetch" href="/assets/js/44.7eefa085.js"><link rel="prefetch" href="/assets/js/45.aa3c8bd4.js"><link rel="prefetch" href="/assets/js/46.d190b5ea.js"><link rel="prefetch" href="/assets/js/47.43006b3b.js"><link rel="prefetch" href="/assets/js/48.d4b83131.js"><link rel="prefetch" href="/assets/js/49.e7c831c1.js"><link rel="prefetch" href="/assets/js/5.0e88bfe4.js"><link rel="prefetch" href="/assets/js/50.17222b89.js"><link rel="prefetch" href="/assets/js/51.64c39578.js"><link rel="prefetch" href="/assets/js/52.f9cef810.js"><link rel="prefetch" href="/assets/js/53.61c8ee0e.js"><link rel="prefetch" href="/assets/js/6.f186940d.js"><link rel="prefetch" href="/assets/js/7.c27c1b73.js"><link rel="prefetch" href="/assets/js/8.743493df.js"><link rel="prefetch" href="/assets/js/9.3323102f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2aa6dd87.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/avatar/avatar.jpg" alt="我的博客" class="logo"> <span class="site-name can-hide">我的博客</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">技术文档</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Language/Vue/" class="nav-link router-link-active">Vue</a></li><li class="dropdown-item"><!----> <a href="/Language/Javascript/" class="nav-link">JavaScript</a></li><li class="dropdown-item"><!----> <a href="/Language/es6/" class="nav-link">es6</a></li><li class="dropdown-item"><!----> <a href="/Language/css+html5/" class="nav-link">css+html5</a></li></ul></div></div><div class="nav-item"><a href="https://www.jianshu.com/u/c455567c7f50" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  简书主页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">技术文档</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Language/Vue/" class="nav-link router-link-active">Vue</a></li><li class="dropdown-item"><!----> <a href="/Language/Javascript/" class="nav-link">JavaScript</a></li><li class="dropdown-item"><!----> <a href="/Language/es6/" class="nav-link">es6</a></li><li class="dropdown-item"><!----> <a href="/Language/css+html5/" class="nav-link">css+html5</a></li></ul></div></div><div class="nav-item"><a href="https://www.jianshu.com/u/c455567c7f50" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  简书主页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/Language/Vue/" aria-current="page" class="sidebar-link">vue常用指令</a></li><li><a href="/Language/Vue/vue-cli笔记.html" class="sidebar-link">Vue-cli</a></li><li><a href="/Language/Vue/Vue数据响应式.html" class="sidebar-link">Vue数据响应式</a></li><li><a href="/Language/Vue/vue.config 配置.html" class="sidebar-link">vue.config.js完整默认配置</a></li><li><a href="/Language/Vue/Vue组件传值方法.html" class="sidebar-link">Vue组件之间的传值</a></li><li><a href="/Language/Vue/router 传参.html" class="sidebar-link">路由跳转的方式</a></li></ul> </div> <div class="page"> <div class="content"><h2 id="解决vue移动端适配问题，vue-cli3-vant-ui等第三方ui组件引入适配"><a href="#解决vue移动端适配问题，vue-cli3-vant-ui等第三方ui组件引入适配" class="header-anchor">#</a> 解决vue移动端适配问题，vue-cli3+vant-ui等第三方UI组件引入适配</h2> <h3 id="_1-首先把安装amfe-flexible，这里使用npm-install"><a href="#_1-首先把安装amfe-flexible，这里使用npm-install" class="header-anchor">#</a> 1.首先把安装amfe-flexible，这里使用npm install</h3> <pre><code>npm i -S amfe-flexible
+</code></pre> <h3 id="_2-在入口文件-main-js中引入"><a href="#_2-在入口文件-main-js中引入" class="header-anchor">#</a> 2.在入口文件 main.js中引入</h3> <pre><code>import 'amfe-flexible/index.js'
+</code></pre> <h3 id="_3-在根目录的index-html-的头部加入手机端适配的meta代码"><a href="#_3-在根目录的index-html-的头部加入手机端适配的meta代码" class="header-anchor">#</a> 3.在根目录的index.html 的头部加入手机端适配的meta代码</h3> <pre><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no&quot;&gt;
+</code></pre> <h3 id="_4-安装postcss-pxtorem是一款-postcss-插件，用于将单位转化为-rem"><a href="#_4-安装postcss-pxtorem是一款-postcss-插件，用于将单位转化为-rem" class="header-anchor">#</a> 4.安装postcss-pxtorem是一款 postcss 插件，用于将单位转化为 rem</h3> <pre><code>ps：前提是ui设计的psd图尺寸大小是750*1334，这样我们在iphone6的模拟机上直接使用所标注的尺寸
+npm i postcss-pxtorem --save-dev
+</code></pre> <h3 id="_5-在package-json配置"><a href="#_5-在package-json配置" class="header-anchor">#</a> 5.在package.json配置</h3> <pre><code>&quot;postcss&quot;: {
+    &quot;plugins&quot;: {
+      &quot;autoprefixer&quot;: {
+        &quot;browsers&quot;: [
+          &quot;Android &gt;= 4.0&quot;,
+          &quot;iOS &gt;= 7&quot;
+        ]
+      },
+      &quot;postcss-pxtorem&quot;: {
+        &quot;rootValue&quot;: 37.5,
+        &quot;propList&quot;: [
+          &quot;*&quot;
+        ]
+      }
+    }
+  },
+</code></pre> <h3 id="_6-或者在postcss-config-js中配置（此文件需要在根目录下新建）"><a href="#_6-或者在postcss-config-js中配置（此文件需要在根目录下新建）" class="header-anchor">#</a> 6.或者在postcss.config.js中配置（此文件需要在根目录下新建）</h3> <pre><code>const autoprefixer = require('autoprefixer')
+const pxtorem = require('postcss-pxtorem')
+
+module.exports = ({ file }) =&gt; {
+  let rootValue
+  // vant 37.5 [link](https://github.com/youzan/vant/issues/1181)
+  if (file &amp;&amp; file.dirname &amp;&amp; file.dirname.indexOf('vant') &gt; -1) {
+    rootValue = 37.5
+  } else {
+    rootValue = 75
+  }
+  return {
+    plugins: [
+      autoprefixer(),
+      pxtorem({
+        rootValue: rootValue,
+        propList: ['*'],
+        minPixelValue: 2
+      })
+    ]
+  }
+}
+</code></pre> <p>###温馨提示
+rootValue这个配置项的数值是多少呢？？？ 通常我们是根据设计图来定这个值，
+原因很简单，便于开发。假如设计图给的宽度是750，我们常就会把rootValue设置为75，
+这样我们写样式时，可以直接按照设计图标注的宽高来1:1还原开发。（iPhone界面尺寸：320 * 480、640 * 960、640 * 1136、750 * 1334、1080 * 1920等。）
+那为什么你在这里写成了37.5呢？？？之所以设为37.5，是为了引用像vant、mint-ui这样的第三方UI框架，
+因为第三方框架没有兼容rem，用的是px单位，将rootValue的值设置为设计图宽度（这里为750px）75的一半，
+即可以1:1还原vant、mint-ui的组件，否则会样式会有变化，例如按钮会变小。既然设置成了37.5 那么我们必须在写样式时，也将值改为设计图的一半。</p></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/assets/js/app.858bddda.js" defer></script><script src="/assets/js/34.deb058f5.js" defer></script>
+  </body>
+</html>

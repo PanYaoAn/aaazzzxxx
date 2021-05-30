@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>1.1 形参默认值 | 我的博客</title>
+    <meta name="description" content="">
+    <link rel="icon" href="/avatar/avatar.jpg">
+    
+    <link rel="preload" href="/assets/css/0.styles.2aa6dd87.css" as="style"><link rel="preload" href="/assets/js/app.858bddda.js" as="script"><link rel="preload" href="/assets/js/45.aa3c8bd4.js" as="script"><link rel="prefetch" href="/assets/js/10.2d74bb5a.js"><link rel="prefetch" href="/assets/js/11.e10d842b.js"><link rel="prefetch" href="/assets/js/12.18390cbb.js"><link rel="prefetch" href="/assets/js/13.aae5792b.js"><link rel="prefetch" href="/assets/js/14.1d6ae7c3.js"><link rel="prefetch" href="/assets/js/15.1accb1d0.js"><link rel="prefetch" href="/assets/js/16.8c6dba62.js"><link rel="prefetch" href="/assets/js/17.25fadd3f.js"><link rel="prefetch" href="/assets/js/18.e6e5f1eb.js"><link rel="prefetch" href="/assets/js/19.252d41af.js"><link rel="prefetch" href="/assets/js/2.854dcf62.js"><link rel="prefetch" href="/assets/js/20.89167b01.js"><link rel="prefetch" href="/assets/js/21.5c3e5f51.js"><link rel="prefetch" href="/assets/js/22.8f218529.js"><link rel="prefetch" href="/assets/js/23.4454e386.js"><link rel="prefetch" href="/assets/js/24.e78c8deb.js"><link rel="prefetch" href="/assets/js/25.aff1fa58.js"><link rel="prefetch" href="/assets/js/26.c1575985.js"><link rel="prefetch" href="/assets/js/27.bbbff17e.js"><link rel="prefetch" href="/assets/js/28.032c3b66.js"><link rel="prefetch" href="/assets/js/29.b070123f.js"><link rel="prefetch" href="/assets/js/3.1c160946.js"><link rel="prefetch" href="/assets/js/30.7ac5e2b2.js"><link rel="prefetch" href="/assets/js/31.0aede292.js"><link rel="prefetch" href="/assets/js/32.8064e8d6.js"><link rel="prefetch" href="/assets/js/33.94d5a126.js"><link rel="prefetch" href="/assets/js/34.deb058f5.js"><link rel="prefetch" href="/assets/js/35.c3e5d041.js"><link rel="prefetch" href="/assets/js/36.00db95fa.js"><link rel="prefetch" href="/assets/js/37.7c1e5e50.js"><link rel="prefetch" href="/assets/js/38.c75c82fc.js"><link rel="prefetch" href="/assets/js/39.636283c2.js"><link rel="prefetch" href="/assets/js/4.7f5eef1c.js"><link rel="prefetch" href="/assets/js/40.e8781bfc.js"><link rel="prefetch" href="/assets/js/41.532ec844.js"><link rel="prefetch" href="/assets/js/42.85cabb29.js"><link rel="prefetch" href="/assets/js/43.5e97f4d6.js"><link rel="prefetch" href="/assets/js/44.7eefa085.js"><link rel="prefetch" href="/assets/js/46.d190b5ea.js"><link rel="prefetch" href="/assets/js/47.43006b3b.js"><link rel="prefetch" href="/assets/js/48.d4b83131.js"><link rel="prefetch" href="/assets/js/49.e7c831c1.js"><link rel="prefetch" href="/assets/js/5.0e88bfe4.js"><link rel="prefetch" href="/assets/js/50.17222b89.js"><link rel="prefetch" href="/assets/js/51.64c39578.js"><link rel="prefetch" href="/assets/js/52.f9cef810.js"><link rel="prefetch" href="/assets/js/53.61c8ee0e.js"><link rel="prefetch" href="/assets/js/6.f186940d.js"><link rel="prefetch" href="/assets/js/7.c27c1b73.js"><link rel="prefetch" href="/assets/js/8.743493df.js"><link rel="prefetch" href="/assets/js/9.3323102f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2aa6dd87.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/avatar/avatar.jpg" alt="我的博客" class="logo"> <span class="site-name can-hide">我的博客</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">技术文档</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Language/Vue/" class="nav-link">Vue</a></li><li class="dropdown-item"><!----> <a href="/Language/Javascript/" class="nav-link">JavaScript</a></li><li class="dropdown-item"><!----> <a href="/Language/es6/" class="nav-link router-link-active">es6</a></li><li class="dropdown-item"><!----> <a href="/Language/css+html5/" class="nav-link">css+html5</a></li></ul></div></div><div class="nav-item"><a href="https://www.jianshu.com/u/c455567c7f50" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  简书主页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">技术文档</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Language/Vue/" class="nav-link">Vue</a></li><li class="dropdown-item"><!----> <a href="/Language/Javascript/" class="nav-link">JavaScript</a></li><li class="dropdown-item"><!----> <a href="/Language/es6/" class="nav-link router-link-active">es6</a></li><li class="dropdown-item"><!----> <a href="/Language/css+html5/" class="nav-link">css+html5</a></li></ul></div></div><div class="nav-item"><a href="https://www.jianshu.com/u/c455567c7f50" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  简书主页
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <!----> </div> <div class="page"> <div class="content"><h3 id="_1-1-形参默认值"><a href="#_1-1-形参默认值" class="header-anchor">#</a> 1.1 形参默认值</h3> <p>声明函数时给形参设置默认值。在函数调用时，如果没有传入实参则使用形参默认值；如果传入了实参则使用实参的值。</p> <pre><code>function add(a = 10, b = 20) {
+    console.log(a + b);
+ }
+  add(1, 3); // 4 如果函数调用时传入了实参，则使用实参
+  add(); // 30  如果函数调用是没有纯如实参，则使用形参的默认值
+</code></pre> <h3 id="_1-2-rest参数（剩余参数）"><a href="#_1-2-rest参数（剩余参数）" class="header-anchor">#</a> 1.2 rest参数（剩余参数）</h3> <p>函数调用时，实参会以数组形式保存在args变量中</p> <pre><code>  function getData(...args) {
+    console.log(args); //  [1, 2, 3, 4, 5, 6]
+  }
+  getData(1, 2, 3, 4, 5, 6);
+
+ function getData(a, ...args) {
+    console.log(a); 1
+
+    console.log(args); //  [2, 3, 4, 5, 6]
+  }
+  getData(1, 2, 3, 4, 5, 6);
+</code></pre> <h3 id="_1-3-箭头函数"><a href="#_1-3-箭头函数" class="header-anchor">#</a> 1.3 箭头函数</h3> <p>箭头函数的定义方式</p> <pre><code>箭头函数的用法和普通函数用法==几乎==一致
+去掉 function 关键词
+() 和 {} 之间增加 =&gt;
+
+//匿名函数
+function () {}  
+() =&gt; {}        
+
+//命名函数
+let show = function () {}
+let show = () =&gt; {}
+</code></pre> <p>箭头函数的特殊点</p> <p>·箭头函数不能作为构造函数</p> <pre><code> // 构造函数
+function Person(name, age) {
+	this.name = name;
+	this.age = age;
+}
+
+var p = new Person(&quot;lisi&quot;, 30);
+console.log(p); // Person {name: &quot;lisi&quot;, age: 30}
+// 箭头函数
+let Son = () =&gt; {
+	this.name;
+	this.age;
+};
+
+var v = new Son(); //报错: Person is not a constructor
+console.log(v);
+</code></pre> <p>箭头函数没有this对象，在箭头函数中的this指的函数外层的对象</p> <pre><code>&lt;button&gt;btn&lt;/button&gt;
+&lt;script&gt;
+//为button注册点击事件，弹出当前按钮上的文字
+var btn = document.querySelector('button');
+btn.onclick = function () {
+   alert(this.innerText);  //成功弹出，普通函数中this指向调用者
+}
+
+btn.onclick = () =&gt; {
+    alert(this.innerText);  //弹出undefined，因为this指向window，而window没有innerText属性
+}
+&lt;/script&gt;
+</code></pre> <p>箭头函数没有arguments，要使用可变参数可以使用 rest 方式</p> <pre><code>let show = () =&gt; {
+    console.log(arguments);  //报错: arguments is not defined
+}
+
+show(1,2,3);
+</code></pre> <p>如果函数体只有一句并且设置了返回值，则不需要使用大括号，不需要return</p> <pre><code>let add = (x = 1, y = 2) =&gt; x + y;
+
+console.log(add(10, 20)); 
+console.log(add()); 
+</code></pre> <p>如果函数中只有一个参数，则不需要写小括号</p> <pre><code>let add = x =&gt; x + 5;
+
+console.log(add(3));  // 8</code></pre></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/assets/js/app.858bddda.js" defer></script><script src="/assets/js/45.aa3c8bd4.js" defer></script>
+  </body>
+</html>
